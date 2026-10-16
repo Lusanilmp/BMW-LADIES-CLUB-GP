@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Static fallback. On Netlify, /sitemap.xml is served by the sitemap function (adds blog posts + events). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://bmwladiesclubgp.co.za/</loc><priority>1.0</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/about</loc><priority>0.8</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/events</loc><priority>0.8</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/blog</loc><priority>0.8</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/gallery</loc><priority>0.8</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/community</loc><priority>0.8</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/join</loc><priority>0.8</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/contact</loc><priority>0.7</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/blog/bmw-pad-drive-2026</loc><priority>0.6</priority></url>
+  <url><loc>https://bmwladiesclubgp.co.za/blog/follow-the-club-on-tiktok</loc><priority>0.5</priority></url>
+</urlset>

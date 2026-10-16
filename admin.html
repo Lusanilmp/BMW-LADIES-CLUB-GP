@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin Dashboard | BMW Ladies Club GP</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="assets/icons/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-body">
+<section id="login" class="container" hidden>
+<div class="login-box form"><h1 style="font-size:1.7rem">Club administrator sign-in</h1>
+<form id="login-form"><div class="form-grid">
+<div class="field"><label for="l-email">Email</label><input id="l-email" type="email" autocomplete="username" required></div>
+<div class="field"><label for="l-pass">Password</label><input id="l-pass" type="password" autocomplete="current-password" required></div>
+<button class="btn btn--primary" type="submit">Sign in</button></div></form>
+<p id="login-msg" class="muted" role="status" style="margin-top:12px"></p>
+<p class="muted"><a href="index.html">← Back to website</a></p></div></section>
+<div id="app" hidden>
+<div class="admin-top"><div class="container"><strong>BMW Ladies Club GP · Admin</strong><span><a href="index.html" style="color:#ffd3e3;margin-right:14px">View site</a><button id="logout" class="btn btn--light btn--sm" type="button">Sign out</button></span></div></div>
+<div class="container admin-layout">
+<nav class="admin-nav" aria-label="Admin sections">
+<button data-tab="overview">Overview</button><button data-tab="applications">Membership</button><button data-tab="events">Events</button><button data-tab="registrations">Event RSVPs</button><button data-tab="posts">Blog</button><button data-tab="gallery">Gallery</button><button data-tab="social">Social posts</button><button data-tab="campaigns">Campaigns</button><button data-tab="enquiries">Enquiries</button><button data-tab="settings">Settings</button>
+</nav>
+<main id="panel" tabindex="-1"></main>
+</div></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="js/config.js"></script>
+<script src="js/supabase-client.js"></script>
+<script src="JavaScript.js"></script>
+<script src="js/admin.js"></script>
+</body></html>
